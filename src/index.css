@@ -1,0 +1,52 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: #ffc04d;
+  background-color: #0077b6;
+
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.feature-wrapper {
+  padding: 5px;
+  background-color: #00b4d8;
+}
+
+ul {
+  font-weight: 500;
+  color: #ffffff;
+  text-decoration: inherit;
+  list-style-type: none;
+}
+
+p:hover {
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 1.1;
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 1.2em;
+  line-height: 1.1;
+  color: #000000;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+}
